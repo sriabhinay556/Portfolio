@@ -24,10 +24,11 @@ export default function Project({ title, description, tags, imageUrl, href }: Pr
                 opacity: opacityProgess,
             }}
         >
-            <section
+            <section 
                 className="bg-[#251e23e6] dark:bg-black/20 hover:bg-[#292428] dark:hover:bg-black/40 max-w-[45rem] border border-beta rounded-lg overflow-hidden
                             sm:pr-1 relative sm:h-[19.5rem] transition duration-700 sm:group-even:pl-8"
             >
+                <Link href={href}>
                 <div className="pt-2 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-5 sm:max-w-[55%] flex justify-center flex-col h-full sm:group-even:ml-[18rem]">
                     <h3 className="text-2xl font-semibold text-stone-500 dark:text-main/75 group-hover:dark:text-main group-hover:text-[#867f7a] text-center sm:text-left">
                         {title}
@@ -41,7 +42,7 @@ export default function Project({ title, description, tags, imageUrl, href }: Pr
                         ))}
                     </ul>
                 </div>
-                <Link href={href} target="_blank">
+                <div>
                     <Image
                         className="absolute hidden sm:block top-10 -right-[11rem] w-[28.25rem] rounded-[0.5rem] shadow-xl group-hover:shadow-projectLight
                                    dark:group-hover:shadow-projectDark duration-[0.6s]
@@ -61,6 +62,7 @@ export default function Project({ title, description, tags, imageUrl, href }: Pr
                         alt="Project I worked on"
                         quality={95}
                     />
+                </div>
                 </Link>
             </section>
         </motion.div>

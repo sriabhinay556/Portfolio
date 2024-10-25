@@ -24,7 +24,7 @@ export default function ScottyTheRocket() {
                     onMouseLeave={() => setIsHovered(false)}
                 />
             </a>
-            {isHovered && <span className="absolute text-black dark:text-lighty text-xs mt-6">Beam me up, Scotty!</span>}
+            {isHovered && <span className="absolute text-black dark:text-lighty text-xs mt-6">Beam me up!</span>}
         </section>
     )
 }

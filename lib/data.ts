@@ -167,11 +167,12 @@ export const skillsData = [
 ] as const
 
 export const experienceData = [
+    
     {
-        title: "Master’s in Computer Science",
+        title: "Master’s in Computer Science and Cybersecurity",
         location: "University of Alabama in Huntsville",
         description:
-            "Completed a Master’s degree in Computer Science with a GPA of 4.0/4.0. Gained extensive knowledge and skills in advanced computing concepts.",
+            "Maintaining a solid 4 GPA with expertise in core CS concepts and worked with various professors helping them to set up labs, assignments and tutoring.",
         icon: React.createElement(LuGraduationCap),
         date: "August 2022 - May 2024",
     },
