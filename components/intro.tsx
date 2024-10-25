@@ -37,9 +37,9 @@ export default function Intro() {
                 animate={{ opacity: 1, y: 0 }}
             >
                 Hello, I&apos;m Sriabhinay Kusuma, a <span className="text-darklord dark:text-main underline decoration-2 underline-offset-2">CS grad</span>{" "}
-                with
+                with knowledge in fields like
                 <span className="block ml-[0.5rem]">
-                    knowledge in fields like
+                    
                     <Typed
                         className="ml-[0.5rem] text-darklord/80 dark:text-main/80"
                         strings={["Full Stack", "Frontend", "AWS", "Security"]}
