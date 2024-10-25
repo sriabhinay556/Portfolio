@@ -1,4 +1,4 @@
-// File: /Users/abhi/new-portfolio/app/page.tsx
+// File: /Users/abhi/Desktop/ALL DEV RELATED FOLDERS/NEXT-app/portfolio/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

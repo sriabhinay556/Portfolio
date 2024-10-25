@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/abhi/new-portfolio/app/layout\":[\"static/media/e1c529c04de64b40-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/abhi/Desktop/ALL DEV RELATED FOLDERS/NEXT-app/portfolio/app/layout\":[\"static/media/e1c529c04de64b40-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
